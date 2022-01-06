@@ -18,7 +18,7 @@ int main()
     }
     for (int i = 0; i < size; i++)
     {
-        cout << a[i] << "bbgxbhg ";
+        cout << a[i] << " ";
     }
     cout << endl;
     for (int i = 0; i < size; i++)

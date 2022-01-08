@@ -1,1 +1,1 @@
-{"name":"Local: conversion","url":"f:\\DSA\\Revision\\Functn\\conversion.cpp","tests":[],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\DSA\\Revision\\Functn\\conversion.cpp","group":"local","local":true}
+{"name":"Local: conversion","url":"f:\\DSA\\Revision\\Functn\\conversion.cpp","tests":[{"id":1641624637181,"input":"10101\n11011","output":"110000"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\DSA\\Revision\\Functn\\conversion.cpp","group":"local","local":true}

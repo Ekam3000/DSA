@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 void decimalToBinary(int n)
 {
@@ -99,19 +99,38 @@ void octaToDecimal(int n)
     }
     cout << "Decimal " << ans << endl;
 }
-void hexaToDecimal(int n)
+void hexaToDecimal(string s)
 {
-    // Pending
-    //  cout <<"Decimal "<< ans << endl;
+    int x = 1;
+    int ans = 0;
+    int sz = s.size();
+    for (int i = sz - 1; i >= 0; i--)
+    {
+        if (s[i] >= '0' && s[i] <= '9')
+        {
+            ans = ans + x * (s[i] - '0');
+        }
+        else if (s[i] >= 'A' && s[i] <= 'F')
+        {
+            ans = ans + x * (s[i] - 'A' + 10);
+        }
+        x = x * 16;
+    }
+    cout << "Decimal " << ans << endl;
+}
+int addBinary(int a, int b)
+{
 }
 int main()
 {
     cout << "1:-decimalToBinary \n2:-decimalToOcta \n3:-decimalToHexa\n4:-binaryToDecimal\n5:-octaToDecimal\n6:-hexaToDecimal" << endl;
     int choice;
     cin >> choice;
+    string s;
     switch (choice)
     {
         int n;
+        // char s[100];
     case 1:
         cout << "Enter a decimal number" << endl;
         cin >> n;
@@ -144,12 +163,22 @@ int main()
         break;
     case 6:
         cout << "Enter a hexa number" << endl;
-        cin >> n;
-        cout << "Hexa " << n << endl;
-        hexaToDecimal(n);
+        cin >> s;
+        cout << "Hexa " << s << endl;
+        hexaToDecimal(s);
         break;
 
     default:
         break;
     }
+    // Method 1:-
+    // Now for adding of 2 binary numbers what we can do is phele dono binary numbers ko decimal mai convert kro then dono ko add kro and then convert that sum of decimal number into the binary number
+    // int n1,n2,n3;
+    // n3=binaryToDecimal(n1)+binaryToDecimal(n2);
+    // decimalToBinary(n3);
+   
+    // Method 2:-
+    // int a, b;
+    // cin >> a >> b;
+    // addBinary(a, b);
 }

@@ -1,1 +1,1 @@
-{"name":"Local: conversion","url":"f:\\DSA\\Revision\\Functn\\conversion.cpp","tests":[{"id":1641620505411,"input":"11","output":"Decimal 11\nBinary 1 0 1 1\nOctal 1 3\nHexa B"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\DSA\\Revision\\Functn\\conversion.cpp","group":"local","local":true}
+{"name":"Local: conversion","url":"f:\\DSA\\Revision\\Functn\\conversion.cpp","tests":[],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\DSA\\Revision\\Functn\\conversion.cpp","group":"local","local":true}

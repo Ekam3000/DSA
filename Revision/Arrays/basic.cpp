@@ -21,6 +21,7 @@ int main()
     int mi = a[0];
     for (int i = 0; i < t; i++)
     {
+        //Method: 1
         if (a[i] > ma)
         {
             ma = a[i];
@@ -30,6 +31,7 @@ int main()
             mi = a[i];
         }
 
+        //Method: 2
         // ma=max(ma,a[i]);
         // mi=min(mi,a[i]);
     }

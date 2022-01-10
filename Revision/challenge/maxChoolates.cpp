@@ -16,12 +16,22 @@ int main()
         choco++;
         rs--;
         wrapper++;
+        // cout << "********************" << endl;
+        // cout << "Choco: " << choco << endl;
+        // cout << "Rs: " << rs << endl;
+        // cout << "Wrappers: " << wrapper << endl;
+        // cout << "********************" << endl;
 
         if (wrapper == 3)
         {
             wrapper = 0;
             choco++;
             wrapper++;
+            // cout << "********************" << endl;
+            // cout << "Choco: " << choco << endl;
+            // cout << "Rs: " << rs << endl;
+            // cout << "Wrappers: " << wrapper << endl;
+            // cout << "********************" << endl;
         }
     }
     cout << choco;

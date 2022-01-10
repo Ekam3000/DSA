@@ -1,0 +1,1 @@
+{"name":"Local: selectionSort","url":"f:\\DSA\\Revision\\Arrays\\selectionSort.cpp","tests":[{"id":1641789976015,"input":"","output":"8 4 5 6 2\n2 4 5 6 8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\DSA\\Revision\\Arrays\\selectionSort.cpp","group":"local","local":true}
